@@ -24,9 +24,6 @@ ul {
   li a:hover, .dropdown:hover .dropbtn {
     background-color: rgba(49, 43, 45, 0.952);
   }
-  a:hover {
-    background-color: rgba(49, 43, 45, 0.952);
-  }
   
   li.dropdown {
     display: inline-block;
@@ -49,7 +46,7 @@ ul {
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #960e7400;}
+  .dropdown-content a:hover {background-color: #44354081;}
   
   .dropdown:hover .dropdown-content {
     display: block;
