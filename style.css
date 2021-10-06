@@ -49,6 +49,7 @@ body{
     font-size: 14px;
     color: #474545;
     text-decoration: none;
+<<<<<<< HEAD
     text-transform:uppercase;
     transition: all 0.3s ease;
    }
@@ -69,6 +70,22 @@ body{
    .dws-menu li ul{
     position: absolute;
     min-width: 150px;
+=======
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(49, 43, 45, 0.952);
+  }
+  a:hover {
+    background-color: rgba(49, 43, 45, 0.952);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+>>>>>>> parent of 4d95356 (Сделано ховер)
     display: none;
    }
    .dws-menu li > ul li{
@@ -86,10 +103,17 @@ body{
    }
    .dws-menu li:hover > ul{
     display: block;
+<<<<<<< HEAD
    }
 
 
    /* Аят начало */
+=======
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #960e7400;}
+>>>>>>> parent of 4d95356 (Сделано ховер)
   
 
     .container {
